@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 :root{
 	--accentcolor: #189ad3;
+	--accentcolor_hover: #28aae3;
 	--beforecolor: #d52349;
 }
 /*
@@ -1635,7 +1636,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: var(--accentcolor_hover);
 		}
 
 		input[type="button"]:active,
@@ -1643,7 +1644,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: var(--accentcolor_hover);
 		}
 
 		input[type="button"].alt,
